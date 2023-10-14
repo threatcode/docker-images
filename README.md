@@ -1,14 +1,14 @@
-# Docker images for Parrot OS
+# Docker images for ThreatCode OS
 
 Docker is a powerful technology that allows users to run containers universally on any host platform.
 
 Docker uses template images, and allows the user to start several instances of the same template, destroy them, or build new custom templates on top of them.
 
-Parrot uses docker to allow its users to use its vast arsenal of tools on any platform supported by docker.
+ThreatCode uses docker to allow its users to use its vast arsenal of tools on any platform supported by docker.
 
-[Parrot Core](#threatcodecore)
+[ThreatCode Core](#threatcodecore)
 
-[Parrot Security](#threatcodesecurity)
+[ThreatCode Security](#threatcodesecurity)
 
 [Nmap](#threatcodetools-nmap)
 
@@ -30,11 +30,11 @@ Parrot uses docker to allow its users to use its vast arsenal of tools on any pl
 
 # Available Templates
 
-Whether you want to have a container full of tools, or several smaller containers with a tiny selection of tools, or even a clean Parrot environment to build yor custom stack on, this is the right place where to learn how to take advantage of the Parrot Docker workspace.
+Whether you want to have a container full of tools, or several smaller containers with a tiny selection of tools, or even a clean ThreatCode environment to build yor custom stack on, this is the right place where to learn how to take advantage of the ThreatCode Docker workspace.
 
 ## threatcode/core
 
-Core system with just the Parrot basics.
+Core system with just the ThreatCode basics.
 You can use it as a start point to create your custom containers.
 
 available flavors:
@@ -162,7 +162,7 @@ example:
 
 ## threatcode/build
 
-This container is used internally by the Parrot Build Platform to test and build the distro packages.
+This container is used internally by the ThreatCode Build Platform to test and build the distro packages.
 
 Even if it is not meant to be used directly by users, it contains all the tools to work on debian packaging and properly test package builds in clean and disposable environments.
 
